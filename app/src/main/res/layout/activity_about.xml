@@ -10,13 +10,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ABOUT PAGE"
+        android:text="WaterBorne Disease:Typhoid"
         android:gravity="center"
        android:textSize="25dp"
-        android:background="#EF6C00"
+        android:background="@drawable/shape"
         android:textStyle="bold"
-        android:textColor="#0A0C0E"
+        android:textColor="#090E04"
+        android:padding="25dp"
         android:layout_marginTop="10dp"
         />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/aboutwebview"/>
 
 </LinearLayout>

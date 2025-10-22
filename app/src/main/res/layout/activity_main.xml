@@ -17,13 +17,13 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="#E3860F"
-        android:background="#46336650"
-        android:padding="10dp"/>
+        android:background="@drawable/shape"
+        android:padding="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
@@ -35,10 +35,6 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
 
-
-
-
-
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,7 +43,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/about"/>
                 <TextView
@@ -81,7 +77,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/causes"/>
                 <TextView
@@ -104,7 +100,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
@@ -124,7 +120,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/symptoms"/>
                 <TextView
@@ -158,7 +154,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/prevention"/>
                 <TextView
@@ -181,7 +177,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
@@ -201,7 +197,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/tollfree"/>
                 <TextView
@@ -236,7 +232,7 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:padding="25dp"
                     android:src="@drawable/location"/>
                 <TextView
