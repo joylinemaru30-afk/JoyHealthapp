@@ -9,7 +9,7 @@ class Symptoms : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_symptoms)
         val symptomsweb=findViewById<WebView>(R.id.symptomswebview)
-        symptomsweb.loadUrl("file:///android_asset/causes.html")
+        symptomsweb.loadUrl("file:///android_asset/symptoms.html")
 
 
     }
